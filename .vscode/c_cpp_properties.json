@@ -13,6 +13,16 @@
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu18",
             "cppStandard": "gnu++14"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/snap/arduino/41/tools/**",
+                "/snap/arduino/41/hardware/arduino/avr/**"
+            ],
+            "forcedInclude": [
+                "/snap/arduino/41/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ]
         }
     ],
     "version": 4
